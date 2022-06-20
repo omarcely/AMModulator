@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "inductors")(type "KiCad")(uri "/Users/diegofigueroa/Documents/GitHub/AMModulator/PCB design/inductors.pretty")(options "")(descr ""))
+  (lib (name "capacitors")(type "KiCad")(uri "/Users/diegofigueroa/Documents/GitHub/AMModulator/PCB design/capacitors.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,85 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid 70d303c1-171e-4ca1-872e-6785c69dcb4c)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 57.912 80.01) (size 41.148 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid feaeab96-fb10-4d9a-9465-54f6467279a4)
+    (property "Sheet name" "clapp_oscillator" (id 0) (at 57.912 79.2984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "clapp_oscillator.kicad_sch" (id 1) (at 57.912 99.6446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Vout_30MHz_50Ohm" output (at 99.06 89.916 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 55a5b2e2-5921-4031-a4e0-1fcb745a2572)
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4" (page "2"))
+  )
+
+  (symbol_instances
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/b394e96d-e6d6-4604-8d49-01ef4b5c7ca8"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/9939ca9e-1649-41e9-ae15-77373200601e"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/5c763ebd-e917-49bf-b5ce-7be5a9873850"
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/d2d9984f-5368-4bb9-aa65-48459be6e3bc"
+      (reference "#PWR0104") (unit 1) (value "+10V") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/1e2a57ec-1382-46c3-aa4f-2c20399f7e14"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/e2164baf-421a-4114-978a-e77e92f32e2f"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/49010381-7b9d-48b7-bf68-c72f022c5a30"
+      (reference "C1") (unit 1) (value "1n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/76c75630-0028-4db3-b722-b027f372a94f"
+      (reference "C2") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/a9b91fcb-c2b1-4e09-b3e5-7a586ef8a784"
+      (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/de4ff395-643a-4c46-9948-cbcfd8ab0cb0"
+      (reference "C4") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/e1e15d2e-1fcb-496b-9f63-7fd690ae5b87"
+      (reference "Cv1") (unit 1) (value "30p") (footprint "capacitors:variable_cap")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/d2c12894-e46a-4333-bc72-5a352c43c894"
+      (reference "L1") (unit 1) (value "938.16n") (footprint "inductors:air_core_1cm")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/b5d92d3c-1b66-495f-aba5-515bc582dd52"
+      (reference "L2") (unit 1) (value "10u") (footprint "inductors:T-130")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/9e03f67f-c2c7-4258-b034-512fafb9869e"
+      (reference "Q1") (unit 1) (value "MMBT3904") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/2289278c-8827-471b-85e7-7c4b9a150630"
+      (reference "R1") (unit 1) (value "6.8k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/9afc7c6a-b54c-4f27-af04-8d2e75ac4613"
+      (reference "R2") (unit 1) (value "3.3k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/ed5c9a65-c0d9-4b53-ae0d-ba01d40220fb"
+      (reference "R3") (unit 1) (value "68") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+    )
+  )
+)
