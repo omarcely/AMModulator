@@ -1,0 +1,46 @@
+
+   --- Expanded Deck Component Count ---
+C's 3
+Q's 1
+R's 5
+V's 3
+tot: 12
+
+
+    --- Expanded Netlist ---
+* C:\Users\Aspire\Desktop\Mixer.asc
+q2 n002 n005 n006 0 qmmbt3904lt1g
+r4 n006 n007 100
+r5 n001 n005 100k
+r6 n005 0 50k
+v2 n001 0 10
+v1 n004 0 sine(0 100m 30meg)
+c2 n006 0 100n
+v3 n007 0 sine(0 500m 20k)
+c3 n003 n002 10p
+r2 n003 0 50
+c1 n005 n004 100n
+r1 n001 n002 330
+.model qmmbt3904lt1g npn is=2.04959e-14 bf=363.202 nf=1.04474 vaf=10 ikf=0.0238161 ise=4.06917e-14 ne=1.46344 br=1.88131 nr=1.02127 var=87.0198 ikr=0.238161 isc=4.06917e-14 nc=3.87411 rb=10.62 irb=24.2417 rbm=10.62 re=0.0189075 rc=0.833881 xtb=0.794336 xti=1 eg=1.206 cje=5.01193e-12 vje=0.4 mje=0.308747 tf=4.90228e-10 xtf=9.95281 vtf=0.230247 itf=0.212393 cjc=3.75788e-12 vjc=0.4 mjc=0.236094 xcjc=1 fc=0.8 cjs=0 vjs=0.75 mjs=0.5 tr=1e-07 ptf=0 kf=0 af=1
+.tran 0 200u 10u
+.end
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Jun 21 23:09:03 2022
+Total elapsed time: 16.263 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 793173
+traniter = 793168
+tranpoints = 272147
+accept = 178699
+rejected = 93448
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 656 bytes object code size  0.5/0.3/[0.3]
+Matrix Compiler2: off  [0.3]/0.5/0.7
+
