@@ -1,0 +1,50 @@
+
+   --- Expanded Deck Component Count ---
+C's 4
+L's 2
+Q's 1
+R's 5
+V's 3
+tot: 15
+
+
+    --- Expanded Netlist ---
+* C:\users\omar\My Documents\University\IX_Semester\RF\AMModulator\Mixer\Power Mixer\Mixer.asc
+q2 n003 n006 n007 0 qmmbt3904lt1g
+r4 n007 0 27
+r5 v+ n006 22k
+r6 n006 0 1.5k
+v2 v+ 0 12
+c2 n007 0 100n
+r1 n005 0 120
+v1 n008 0 sine(0 1 28837500) rser=50
+r2 v+ n003 180
+c1 n006 n008 1n
+v3 n001 0 sine(0 300m 20k) rser=50
+c3 n002 n006 1m
+l1 n001 n002 1m
+c4 n004 n003 6.5p
+l2 n004 n005 4.68µ
+.model qmmbt3904lt1g npn is=2.04959e-14 bf=363.202 nf=1.04474 vaf=10 ikf=0.0238161 ise=4.06917e-14 ne=1.46344 br=1.88131 nr=1.02127 var=87.0198 ikr=0.238161 isc=4.06917e-14 nc=3.87411 rb=10.62 irb=24.2417 rbm=10.62 re=0.0189075 rc=0.833881 xtb=0.794336 xti=1 eg=1.206 cje=5.01193e-12 vje=0.4 mje=0.308747 tf=4.90228e-10 xtf=9.95281 vtf=0.230247 itf=0.212393 cjc=3.75788e-12 vjc=0.4 mjc=0.236094 xcjc=1 fc=0.8 cjs=0 vjs=0.75 mjs=0.5 tr=1e-07 ptf=0 kf=0 af=1
+.tran 0 300u 100u 0.1n
+.end
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Jun 24 22:23:29 2022
+Total elapsed time: 14.645 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6067626
+traniter = 6067621
+tranpoints = 3000044
+accept = 3000034
+rejected = 10
+matrix size = 13
+fillins = 0
+solver = Normal
+Matrix Compiler1: 728 bytes object code size  0.2/0.1/[0.1]
+Matrix Compiler2: 1007 bytes object code size  0.1/0.1/[0.1]
+
