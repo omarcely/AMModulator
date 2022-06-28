@@ -1,11 +1,10 @@
 * C:\Users\usuario\Documents\Universidad\RF\AMModulator\Antenna\AcopleAntena.asc
 R1 N003 0 797.3
 L1 N002 N003 8.2642µ
-L2 N002 0 {L}
+L2 N002 0 551.6n Rser=1.33
 C1 N002 N001 66p
 C2 0 N001 440p
 V1 N001 0 AC 1 Rser=50
-.ac list 28.837meg
-.step param L 400.2804n 600.2804n 1n
+.ac dec 1000 10meg 100meg
 .backanno
 .end
