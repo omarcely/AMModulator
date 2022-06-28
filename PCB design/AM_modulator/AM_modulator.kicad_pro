@@ -432,6 +432,14 @@
     [
       "feaeab96-fb10-4d9a-9465-54f6467279a4",
       "clapp_oscillator"
+    ],
+    [
+      "d4b71b3f-86db-4677-a185-1a235c83ef21",
+      "Mixer"
+    ],
+    [
+      "e320c07d-9db6-4a2f-b06e-cc71a93af112",
+      "Antenna"
     ]
   ],
   "text_variables": {}
