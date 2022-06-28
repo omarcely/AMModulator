@@ -483,8 +483,14 @@
     (path "/1d1a2ac1-d40d-4ac1-b9da-c646f87723af"
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/77d9add6-cfab-410e-abb7-99cf1994bd73"
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d4b71b3f-86db-4677-a185-1a235c83ef21/18f9bec6-a255-489d-ae70-8f1ac7b9625b"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
     (path "/e320c07d-9db6-4a2f-b06e-cc71a93af112/1a997f66-1479-44f7-9ecd-d894e641c671"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
     (path "/e320c07d-9db6-4a2f-b06e-cc71a93af112/3f026fc4-4226-4af0-b36b-a8d4d6de9b4e"
       (reference "Antena+1") (unit 1) (value "Conn_01x01_Female") (footprint "Connector_Pin:Pin_D1.4mm_L8.5mm_W2.8mm_FlatFork")
@@ -530,6 +536,12 @@
     )
     (path "/0a2b3a26-011b-46b9-85a0-5a78834b9695"
       (reference "J2") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+    )
+    (path "/d4b71b3f-86db-4677-a185-1a235c83ef21/38c035e7-c5aa-4f04-a554-7240daa9d307"
+      (reference "J?") (unit 1) (value "SMA_CONNECTOR") (footprint "LPRS_SMA_CONNECTOR")
+    )
+    (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/8f9c2a0c-4f24-4d7d-b742-934174e3493b"
+      (reference "J?") (unit 1) (value "SMA_CONNECTOR") (footprint "LPRS_SMA_CONNECTOR")
     )
     (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/d2c12894-e46a-4333-bc72-5a352c43c894"
       (reference "L1") (unit 1) (value "938.16n") (footprint "inductors:air_core_1cm")

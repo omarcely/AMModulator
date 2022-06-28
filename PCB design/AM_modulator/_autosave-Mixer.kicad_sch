@@ -580,7 +580,7 @@
   (symbol (lib_id "SMA_T:SMA_CONNECTOR") (at 155.702 84.836 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 38c035e7-c5aa-4f04-a554-7240daa9d307)
-    (property "Reference" "J?" (id 0) (at 162.052 84.328 0))
+    (property "Reference" "J4" (id 0) (at 162.052 84.328 0))
     (property "Value" "SMA_CONNECTOR" (id 1) (at 168.91 86.868 0))
     (property "Footprint" "LPRS_SMA_CONNECTOR" (id 2) (at 155.702 84.836 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)

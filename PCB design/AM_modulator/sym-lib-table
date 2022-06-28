@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "SMA")(type "Legacy")(uri "${KIPRJMOD}/SMA/CONSMA003.062/CONSMA003.062.lib")(options "")(descr ""))
+  (lib (name "SMA_T")(type "Legacy")(uri "${KIPRJMOD}/SMA/SMA_2/SMA_CONNECTOR.lib")(options "")(descr ""))
+)

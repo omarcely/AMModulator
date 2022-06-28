@@ -2,4 +2,6 @@
   (lib (name "inductors")(type "KiCad")(uri "/Users/diegofigueroa/Documents/GitHub/AMModulator/PCB design/inductors.pretty")(options "")(descr ""))
   (lib (name "capacitors")(type "KiCad")(uri "/Users/diegofigueroa/Documents/GitHub/AMModulator/PCB design/capacitors.pretty")(options "")(descr ""))
   (lib (name "Jack Sigma")(type "KiCad")(uri "${KIPRJMOD}/Footprints/Jack Sigma.pretty")(options "")(descr ""))
+  (lib (name "SMA")(type "KiCad")(uri "${KIPRJMOD}/SMA/CONSMA003.062")(options "")(descr ""))
+  (lib (name "SMA_T")(type "KiCad")(uri "${KIPRJMOD}/SMA/SMA_2")(options "")(descr ""))
 )
