@@ -345,10 +345,10 @@
       (reference "CMan1") (unit 1) (value "33p") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/e320c07d-9db6-4a2f-b06e-cc71a93af112/61e2669f-d348-4de3-a399-01927efd15f2"
-      (reference "Cpi1") (unit 1) (value "C") (footprint "")
+      (reference "Cpi1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/e320c07d-9db6-4a2f-b06e-cc71a93af112/4ce509b0-fda6-4dcc-becf-45c41fecd494"
-      (reference "Cpi2") (unit 1) (value "C") (footprint "")
+      (reference "Cpi2") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/e1e15d2e-1fcb-496b-9f63-7fd690ae5b87"
       (reference "Cv1") (unit 1) (value "30p") (footprint "capacitors:variable_cap")
