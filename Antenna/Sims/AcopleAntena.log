@@ -1,8 +1,8 @@
-Circuit: * C:\Users\usuario\Documents\Universidad\RF\AMModulator\Antenna\AcopleAntena.asc
+Circuit: * C:\Users\usuario\Documents\Universidad\RF\AMModulator\Antenna\Sims\AcopleAntena.asc
 
 
-Date: Tue Jun 28 15:59:34 2022
-Total elapsed time: 0.036 seconds.
+Date: Thu Jun 30 14:25:22 2022
+Total elapsed time: 0.436 seconds.
 
 tnom = 27
 temp = 27
