@@ -592,7 +592,7 @@
       (reference "J4") (unit 1) (value "SMA_CONNECTOR") (footprint "SMA_T:LPRS_SMA_CONNECTOR")
     )
     (path "/feaeab96-fb10-4d9a-9465-54f6467279a4/ebf06ad0-f224-4841-811c-be176b57e3d0"
-      (reference "L1") (unit 1) (value "250n") (footprint "inductors:air_core_1cm")
+      (reference "L1") (unit 1) (value "250n") (footprint "inductors:variable_inductor")
     )
     (path "/e320c07d-9db6-4a2f-b06e-cc71a93af112/37e4f729-c5d0-4d27-b6f5-32a39cbcbef0"
       (reference "Lpi1") (unit 1) (value "551.6nH") (footprint "Inductor_THT:L_Toroid_Vertical_L21.6mm_W9.1mm_P8.40mm_Bourns_5700")
@@ -619,7 +619,7 @@
       (reference "RMb2") (unit 1) (value "100k") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/d4b71b3f-86db-4677-a185-1a235c83ef21/fc643576-5c36-45b1-a67c-10c88ca1a82f"
-      (reference "RMc1") (unit 1) (value "220") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RMc1") (unit 1) (value "240") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/d4b71b3f-86db-4677-a185-1a235c83ef21/5a93effd-0e24-4bec-86ea-df638bde0dae"
       (reference "RMe1") (unit 1) (value "100") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")

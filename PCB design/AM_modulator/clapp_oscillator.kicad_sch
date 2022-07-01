@@ -710,7 +710,7 @@
     (property "Value" "250n" (id 1) (at 99.06 77.2159 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "inductors:air_core_1cm" (id 2) (at 95.504 75.946 0)
+    (property "Footprint" "inductors:variable_inductor" (id 2) (at 95.504 75.946 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 95.504 75.946 0)
