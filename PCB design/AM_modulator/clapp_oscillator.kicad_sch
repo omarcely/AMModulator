@@ -726,7 +726,7 @@
     (property "Reference" "R3" (id 0) (at 74.93 83.3119 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "470" (id 1) (at 74.93 85.8519 0)
+    (property "Value" "430" (id 1) (at 74.93 85.8519 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 71.374 84.582 90)
